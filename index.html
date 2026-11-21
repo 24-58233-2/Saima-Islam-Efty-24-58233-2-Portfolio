@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saima Islam Efty | CSE Student & Aspiring AI Engineer</title>
+<meta name="description" content="Portfolio of Saima Islam Efty, 8th-semester CSE student at AIUB exploring Artificial Intelligence.">
+<meta property="og:title" content="Saima Islam Efty | Aspiring AI Engineer"><meta property="og:type" content="website">
+<style>
+:root{--p:#F8DCE8;--b:#F3C4D8;--a:#D879AA;--h:#FFF0F6;--bg:#FFFBFD;--c:#fff;--t:#29232B;--m:#786C76;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1d171c;--c:#272027;--h:#2f2530;--t:#f6eef3;--m:#b9aab4;--p:#3a2a35}}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--t);font:16px/1.6 Georgia,'Times New Roman',serif}
+h1,h2,h3,nav,button,.btn,.tag{font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 70%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--b)}
+nav{max-width:1100px;margin:auto;display:flex;align-items:center;gap:16px;padding:12px 20px}
+.brand{font-weight:700;letter-spacing:.12em;color:var(--a);font-size:14px;margin-right:auto}
+nav a.l{font-size:14px;color:var(--m);padding:4px 2px;border-bottom:2px solid transparent}
+nav a.l.on{color:var(--a);border-color:var(--a)}
+.btn{display:inline-block;background:var(--a);color:#fff;padding:10px 20px;border-radius:999px;font-weight:600;font-size:14px;border:0;cursor:pointer;transition:.3s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #d879aa66}
+.btn.o{background:transparent;color:var(--a);border:1.5px solid var(--a)}
+#mb{display:none;background:none;border:0;font-size:24px;color:var(--a)}
+@media(max-width:900px){#mb{display:block}nav .links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;padding:16px 20px;border-bottom:1px solid var(--b)}nav .links.open{display:flex}nav .cta{display:none}}
+nav .links{display:flex;gap:16px}
+section{max-width:1100px;margin:auto;padding:80px 20px}
+h2{font-size:clamp(26px,4vw,36px);margin:0 0 8px}h2+p.s{color:var(--m);margin:0 0 32px}
+.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center;min-height:85vh;position:relative}
+@media(max-width:800px){.hero{grid-template-columns:1fr}}
+.hero h1{font-size:clamp(30px,5vw,50px);line-height:1.15;margin:8px 0}
+.rot{color:var(--a);font-weight:600;font-family:system-ui,sans-serif;min-height:1.6em}
+.photo{aspect-ratio:1;max-width:340px;margin:auto;border-radius:36px;background:linear-gradient(135deg,var(--p),var(--b));display:grid;place-items:center;font:700 72px system-ui;color:#fff;box-shadow:0 20px 50px #d879aa40;transition:.4s;position:relative;overflow:hidden}
+.photo:hover{transform:scale(1.03) rotate(-1deg)}
+.photo img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.fl{position:absolute;font-size:34px;opacity:.5;animation:fl 6s ease-in-out infinite;pointer-events:none}
+@keyframes fl{50%{transform:translateY(-16px) rotate(10deg)}}
+.soc{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.soc a{width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--h);border:1px solid var(--b);color:var(--a);font:700 13px system-ui;transition:.3s}
+.soc a:hover{background:var(--a);color:#fff;transform:translateY(-3px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.card{background:var(--c);border:1px solid var(--b);border-radius:22px;padding:22px;transition:.35s;box-shadow:0 4px 14px #d879aa14}
+.card:hover{transform:translateY(-6px);box-shadow:0 16px 36px #d879aa40}
+.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--m);font-size:15px}
+.pc{padding:0;overflow:hidden;cursor:pointer}
+.pc .th{height:150px;display:grid;place-items:center;font-size:54px;background:linear-gradient(135deg,var(--p),var(--b));transition:.5s}
+.pc:hover .th{transform:scale(1.1)}.pc .tw{overflow:hidden}.pc .bd{padding:20px}
+.tag{display:inline-block;font-size:12px;background:var(--h);color:var(--a);border:1px solid var(--b);padding:2px 10px;border-radius:99px;margin:8px 6px 0 0}
+.glass{background:linear-gradient(135deg,var(--h),var(--p));border-radius:28px;padding:32px;border:1px solid var(--b)}
+.vid{aspect-ratio:16/9;border:2px dashed var(--a);border-radius:24px;display:grid;place-items:center;text-align:center;color:var(--m);background:var(--h);padding:20px}
+form{display:grid;gap:12px}
+input,textarea{width:100%;padding:12px 14px;border-radius:14px;border:1px solid var(--b);background:var(--c);color:var(--t);font:inherit}
+.r{opacity:0;transform:translateY(24px);transition:.7s}.r.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.r{opacity:1;transform:none}html{scroll-behavior:auto}}
+footer{background:var(--h);border-top:1px solid var(--b);text-align:center;padding:40px 20px;color:var(--m);font-size:14px}
+footer a{margin:0 8px;color:var(--a)}
+#detail{display:none}ul.f{padding-left:20px;color:var(--m)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}@media(max-width:800px){.two{grid-template-columns:1fr}}
+</style></head><body>
+<header><nav>
+<a class="brand" href="#home">SAIMA ISLAM EFTY</a>
+<div class="links" id="lk"></div>
+<a class="btn cta" href="#contact">Let's Connect</a>
+<button id="mb" aria-label="Menu">☰</button></nav></header>
+
+<main id="main">
+<section id="home" class="hero">
+<span class="fl" style="top:40px;right:8%">🌸</span><span class="fl" style="bottom:60px;left:2%;animation-delay:2s">✿</span>
+<div class="r"><p style="color:var(--m);margin:0">Hello, I'm Saima Islam Efty.</p>
+<h1>Computer Science Student Exploring the World of Artificial Intelligence.</h1>
+<div class="rot" id="rot">CSE Student</div>
+<p style="color:var(--m)">8th-semester CSE student at AIUB, passionate about programming, problem-solving and AI.</p>
+<p><a class="btn" href="#projects">Explore My Projects</a> <a class="btn o" href="#resume">Download Resume</a> <a class="btn o" href="#contact">Let's Connect</a></p>
+<div class="soc" id="soc"></div></div>
+<div class="r"><div class="photo" id="ph">SIE</div></div>
+</section>
+
+<section id="about"><h2 class="r">About Me</h2><p class="s">CSE Student | Aspiring AI Engineer</p>
+<div class="two r"><div><p>I'm Saima Islam Efty, an 8th-semester Computer Science and Engineering student at American International University-Bangladesh. I am passionate about programming, problem-solving, and Artificial Intelligence. I enjoy exploring computer science concepts, building software projects, and continuously improving my technical knowledge. My long-term goal is to become an AI Engineer and explore opportunities in AI research and advanced computing.</p></div>
+<div class="grid" style="grid-template-columns:1fr">
+<div class="card"><h3>Academic Background</h3><p>B.Sc. in CSE, AIUB, 8th semester. Based in Uttara, Dhaka.</p></div>
+<div class="card"><h3>Career Interests</h3><p>AI Engineering, AI research, advanced computing.</p></div></div></div></section>
+
+<section id="skills"><h2 class="r">Technical Skills</h2><p class="s">Tools and areas I work with</p><div id="sk"></div></section>
+
+<section id="projects"><h2 class="r">Projects / My Works</h2><p class="s">Click a project to see its details</p><div class="grid" id="pg"></div></section>
+
+<section id="ai"><h2 class="r">Artificial Intelligence &amp; Research Interests</h2><p class="s">Areas I am exploring. Research work and publications will be added when available.</p><div class="grid" id="ag"></div></section>
+
+<section id="resume"><h2 class="r">Resume</h2><p class="s">Always the latest version</p>
+<div class="glass r two"><div><h3 style="margin-top:0">Saima Islam Efty: CV</h3><p style="color:var(--m)">CSE Student | Aspiring AI Engineer, AIUB</p>
+<a class="btn" id="rv" target="_blank" rel="noopener">View Resume</a> <a class="btn o" id="rd" target="_blank" rel="noopener">Download Resume</a></div>
+<div class="card" style="text-align:center;font-size:48px">📄<p style="font-size:14px">Resume preview</p></div></div></section>
+
+<section id="video"><h2 class="r">Video CV</h2><p class="s">Watch my video introduction</p>
+<div class="vid r" id="vd"><div><div style="font-size:44px">🎬</div><b>My video CV will appear here soon.</b></div></div></section>
+
+<section id="contact"><h2 class="r">Contact</h2><p class="s">Let's connect for internships, jobs or research</p>
+<div class="two r"><div class="card"><h3>Saima Islam Efty</h3>
+<p>📧 <a href="mailto:eftysaimaislam28@gmail.com">eftysaimaislam28@gmail.com</a></p>
+<p>📞 <a href="tel:01621074642">01621074642</a></p><p>📍 Uttara, Dhaka, Bangladesh</p></div>
+<form id="cf" novalidate><input name="n" placeholder="Full Name" aria-label="Full Name"><input name="e" type="email" placeholder="Email Address" aria-label="Email"><input name="s" placeholder="Subject" aria-label="Subject"><textarea name="m" rows="4" placeholder="Message" aria-label="Message"></textarea>
+<button class="btn" type="submit">Send Message</button><p id="fm" role="status" style="margin:0"></p></form></div></section>
+</main>
+
+<main id="detail"></main>
+
+<footer><b style="color:var(--a);letter-spacing:.1em">SAIMA ISLAM EFTY</b><p>Building software, learning AI, one project at a time.</p>
+<p id="fl"></p><p>📧 eftysaimaislam28@gmail.com · 📞 01621074642</p><p>© 2026 Saima Islam Efty. All Rights Reserved.</p></footer>
+
+<script>
+// ===== EDIT HERE: all content lives in CONFIG =====
+const CONFIG={
+photo:"photo.jpg",
+cv:"https://docs.google.com/document/d/1TNU8SvFdLik9hz5AbvWAeaXCl6eRPQeD/edit?usp=sharing",
+video:"video.mp4",
+social:[["Facebook","f","https://www.facebook.com/share/1DrpXeMnsw/"],["Instagram","ig","https://www.instagram.com/eftysaimaislam/"],["GitHub","gh","https://github.com/24-58233-2"],["LinkedIn","in","https://www.linkedin.com/in/saima-islam-efty-a25069448"],["Email","@","mailto:eftysaimaislam28@gmail.com"],["Phone","☎","tel:01621074642"]],
+skills:{"Programming Languages":["C++","Java","C#","Python","SQL"],"Web Technologies":["HTML","CSS"],"Technical Interests":["Artificial Intelligence","Algorithms","Data Structures","Software Engineering","Database Management","Problem Solving"],"Languages":["Bangla","English","Hindi","Chinese"]},
+ai:[["Artificial Intelligence","Exploring how machines learn and reason."],["Mathematical Foundations of AI","Building the maths behind intelligent systems."],["Algorithms","Designing efficient solutions to problems."],["Computational Thinking","Breaking complex problems into clear steps."],["Problem Solving","Practising structured, logical approaches."],["AI Research","Interested in future research opportunities."]],
+projects:[
+{id:"student-management-system",img:"cpp.png",icon:"🎓",title:"Student Management System",cat:"C++",tags:["C++"],short:"A C++ application to manage student records.",desc:"A C++ project built to store and manage student information in an organised way.",feat:["Add and view student records","Organised data handling","Simple menu-based use"]},
+{id:"java-bank-account",img:"java.jpg",icon:"🏦",title:"Bank Account Management System",cat:"Java",tags:["Java"],short:"A Java application for managing bank accounts.",desc:"A Java project that models basic bank account operations.",feat:["Account creation","Deposit and withdrawal","Balance checking"]},
+{id:"csharp-pet-shop",img:"csharp.jpg",icon:"🐾",title:"Pet Shop Management System",cat:"C#",tags:["C#","Windows Forms"],short:"A pink-themed C# desktop app for a pet shop.",desc:"A Windows Forms desktop application for managing pet shop activities.",feat:["Pet listing","Desktop interface","Pink themed design"]},
+{id:"web-technology-project",img:"web.jpg",icon:"🌐",title:"JobBridge (Web Technology Project)",cat:"HTML & CSS",tags:["HTML","CSS"],short:"A hiring and placement web project.",desc:"A web technologies lab project with pages for hiring and placements and a staff panel.",feat:["Multiple HTML pages","Responsive styling","Staff panel page"]},
+{id:"agro-bd-software-engineering",img:"se.jpg",icon:"🌾",title:"Agro BD (Software Engineering Project)",cat:"Software Engineering",tags:["Software Engineering","C#"],short:"Agricultural platform project for Bangladesh.",desc:"A software engineering project with documentation for an agriculture-focused system for farmers in Bangladesh.",feat:["Requirement documentation","Agriculture-focused design"]}
+// For each project you may add: git:"https://...", demo:"https://...", download:"https://..."
+]};
+// ===== end CONFIG =====
+const $=s=>document.querySelector(s),nav=["Home","About","Skills","Projects","AI & Research","Resume","Video CV","Contact"],ids=["home","about","skills","projects","ai","resume","video","contact"];
+$("#lk").innerHTML=nav.map((n,i)=>`<a class="l" href="#${ids[i]}">${n}</a>`).join("");
+const soc=CONFIG.social.map(s=>`<a href="${s[2]}" target="_blank" rel="noopener" aria-label="${s[0]}" title="${s[0]}">${s[1]}</a>`).join("");
+$("#soc").innerHTML=soc;$("#fl").innerHTML=nav.map((n,i)=>`<a href="#${ids[i]}">${n}</a>`).join("");
+if(CONFIG.photo)$("#ph").innerHTML=`<img src="${CONFIG.photo}" alt="Saima Islam Efty" loading="lazy">`;
+$("#sk").innerHTML=`<div class="grid">`+Object.entries(CONFIG.skills).map(([k,v])=>`<div class="card r"><h3>${k}</h3>${v.map(x=>`<span class="tag">${x}</span>`).join("")}</div>`).join("")+`</div>`;
+$("#ag").innerHTML=CONFIG.ai.map(a=>`<div class="card r"><h3>${a[0]}</h3><p>${a[1]}</p></div>`).join("");
+$("#pg").innerHTML=CONFIG.projects.map(p=>`<article class="card pc r" tabindex="0" data-id="${p.id}"><div class="tw"><div class="th">${p.img?`<img src="${p.img}" alt="${p.title}" loading="lazy" style="width:100%;height:100%;object-fit:cover">`:p.icon}</div></div><div class="bd"><small style="color:var(--a)">${p.cat}</small><h3>${p.title}</h3><p>${p.short}</p>${p.tags.map(t=>`<span class="tag">${t}</span>`).join("")}<p style="margin-top:14px"><a class="btn" href="#/projects/${p.id}">View Project</a></p></div></article>`).join("");
+$("#rv").href=$("#rd").href=CONFIG.cv;
+if(CONFIG.video){$("#vd").style.cssText="border:0;padding:0;background:none;aspect-ratio:auto";$("#vd").innerHTML=`<video controls preload="metadata" playsinline style="max-width:100%;max-height:75vh;border-radius:24px;background:#000" src="${CONFIG.video}"></video>`}
+document.querySelectorAll(".pc").forEach(c=>{const go=()=>location.hash="#/projects/"+c.dataset.id;c.onclick=e=>{if(!e.target.closest("a"))go()};c.onkeydown=e=>e.key=="Enter"&&go()});
+$("#mb").onclick=()=>$("#lk").classList.toggle("open");$("#lk").onclick=()=>$("#lk").classList.remove("open");
+// rotating text
+const w=["CSE Student","Aspiring AI Engineer","Programming Enthusiast","AI Research Enthusiast"];let wi=0;setInterval(()=>{wi=(wi+1)%w.length;$("#rot").textContent=w[wi]},2200);
+// reveal + active nav
+const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add("in")),{threshold:.12});
+document.querySelectorAll(".r").forEach(e=>io.observe(e));
+const so=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)document.querySelectorAll("nav a.l").forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});
+ids.forEach(i=>so.observe($("#"+i)));
+// contact form (opens email app with the message)
+$("#cf").onsubmit=e=>{e.preventDefault();const f=e.target,m=$("#fm");
+if(!f.n.value.trim()||!/^\S+@\S+\.\S+$/.test(f.e.value)||!f.s.value.trim()||!f.m.value.trim()){m.textContent="Please fill all fields with a valid email.";m.style.color="#c0392b";return}
+location.href=`mailto:eftysaimaislam28@gmail.com?subject=${encodeURIComponent(f.s.value)}&body=${encodeURIComponent(f.m.value+"\n\n"+f.n.value+" ("+f.e.value+")")}`;
+m.textContent="Opening your email app to send the message…";m.style.color="var(--a)"};
+// project detail pages
+function route(){const m=location.hash.match(/^#\/projects\/([\w-]+)/),d=$("#detail"),mn=$("#main");
+if(!m){d.style.display="none";mn.style.display="";return}
+const p=CONFIG.projects.find(x=>x.id==m[1]);if(!p){location.hash="#projects";return}
+mn.style.display="none";d.style.display="block";scrollTo(0,0);document.title=p.title+" | Saima Islam Efty";
+d.innerHTML=`<section><a class="btn o" href="#projects">← Back to Projects</a><h2 style="margin-top:24px">${p.title}</h2><p class="s">${p.cat} project</p>
+<div class="two"><div class="card" style="padding:0;overflow:hidden"><div class="th" style="height:260px;display:grid;place-items:center;font-size:80px;background:linear-gradient(135deg,var(--p),var(--b))">${p.img?`<img src="${p.img}" alt="${p.title}" style="width:100%;height:100%;object-fit:contain">`:p.icon}</div><p style="padding:12px;text-align:center;font-size:13px">Screenshots will be added here</p></div>
+<div><h3>Overview</h3><p>${p.short}</p><h3>Description</h3><p>${p.desc}</p><h3>Technologies Used</h3>${p.tags.map(t=>`<span class="tag">${t}</span>`).join("")}<h3>Main Features</h3><ul class="f">${p.feat.map(f=>`<li>${f}</li>`).join("")}</ul>
+<h3>Documentation</h3><p style="color:var(--m)">Documentation will be added soon.</p>
+<p>${p.download?`<a class="btn" href="${p.download}" target="_blank" rel="noopener">Download Project Files</a> `:`<span class="btn" style="opacity:.5">Download coming soon</span> `}${p.git?`<a class="btn o" href="${p.git}" target="_blank" rel="noopener">GitHub Source Code</a> `:""}${p.demo?`<a class="btn o" href="${p.demo}" target="_blank" rel="noopener">Live Demo</a>`:""}</p></div></div></section>`}
+addEventListener("hashchange",route);route();
+</script></body></html>
